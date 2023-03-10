@@ -1,0 +1,19 @@
+{
+  "name": "test_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "ethers": "^5.5.1",
+    "siwe": "^1.1.6",
+    "uint8arrays": "^4.0.3"
+  }
+}
